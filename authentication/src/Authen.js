@@ -1,12 +1,12 @@
 import React, { Component} from 'react'
 var firebase = require('firebase');
 var config = {
-  apiKey: "AIzaSyCXsdyKWAgUNwZaiG-YHFNup2mKlFSIxEM",
-  authDomain: "uservey-17b60.firebaseapp.com",
-  databaseURL: "https://uservey-17b60.firebaseio.com",
-  projectId: "uservey-17b60",
-  storageBucket: "uservey-17b60.appspot.com",
-  messagingSenderId: "866162045166"
+  apiKey: "",
+  authDomain: "",
+  databaseURL: "",
+  projectId: "",
+  storageBucket: "",
+  messagingSenderId: ""
 };
 firebase.initializeApp(config);
 export default class Authen extends Component {
